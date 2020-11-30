@@ -16,7 +16,7 @@ function randomInt(n) {
     return Math.floor(Math.random() * (n + 1))
 }
 
-function swap(x, y, z) {
+export function swap(x, y, z) {
     let temp = a[y]
     a[y] = a[z]
     a[z] = temp
